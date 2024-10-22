@@ -27,7 +27,7 @@ const CurrencyConverter = () => {
     <div  style={{
       backgroundImage: `url('https://imgs.search.brave.com/nJxyf0i9TF1BD_-lz2muqHCvvlksicX6WcW4QJPQTsQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jdXJyZW5jeS1l/eGNoYW5nZS1nbG9i/YWwtZm9yZWlnbi1t/b25leS1maW5hbmNl/LXVkc18zMTk2NS00/OTg3NzQuanBnP3Np/emU9NjI2JmV4dD1q/cGc')`,
   }} className="w-full h-screen  flex justify-center items-center">
-       <div className="w-1/2 backdrop-blur-md border-2 border-gray-600 rounded-xl pt-8 pl-8 pr-8 pb-6">
+       <div className=" container-div w-1/2 backdrop-blur-md border-2 border-gray-600 rounded-xl pt-8 pl-8 pr-8 pb-6">
           <form action="" onSubmit={(e)=> {e.preventDefault(); convert(); }}>
 
             {/* first InfoBox */}
